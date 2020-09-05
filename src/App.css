@@ -1,0 +1,88 @@
+body {
+    color: #222;
+    margin: 0;
+    padding: 0;
+    font: 16px/1.5 "Courier New", Arial, sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.content {
+    margin: 5px;
+}
+
+.bold-font {
+    font-weight: bold;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-options {
+    margin-left: 20px;
+    width: 100px;
+}
+
+.button-erro {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.button-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.button-primary {
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 50px;
+}
+
+.button-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.button-primary:disabled {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.button-primary:disabled {
+    opacity: .65;
+}
+
+.button-primary:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.input-name {
+    padding: .95rem .75rem;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    color: #495057;
+    font-size: 15px;
+}
+
+.input-name:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
